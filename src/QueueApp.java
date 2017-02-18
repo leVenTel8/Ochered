@@ -1,21 +1,21 @@
 
 public class QueueApp {
     public static void main(String[] args){
-        Queue theQueue = new Queue(5);
+        Deque theQueue = new Deque(5);
 
-        theQueue.insert(10);
-        theQueue.insert(20);
-        theQueue.insert(30);
-        theQueue.insert(40);
+        theQueue.insertRight(10);
+        theQueue.insertRight(20);
+        theQueue.insertRight(30);
+        theQueue.insertRight(40);
 
-        theQueue.remove();
-        theQueue.remove();
-        theQueue.remove();
+        theQueue.removeRight();
+        theQueue.removeRight();
+        theQueue.removeRight();
 
-        theQueue.insert(50);
-        theQueue.insert(60);
-        theQueue.insert(70);
-        theQueue.insert(80);
+        theQueue.insertRight(50);
+        theQueue.insertRight(60);
+        theQueue.insertRight(70);
+        theQueue.insertRight(80);
 
         theQueue.display();
 
